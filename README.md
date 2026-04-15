@@ -1,143 +1,124 @@
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0f1e,50:0d1f3c,100:0a1628&height=220&section=header&text=Meet%20Joshi&fontSize=56&fontColor=38bdf8&animation=fadeIn&fontAlignY=40&stroke=38bdf8&strokeWidth=1&desc=ML%20%26%20AI%20Systems%20Builder%20%7C%20Problem%20Solver&descAlignY=60&descSize=19&descColor=cbd5e1" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:000000,40:020b18,100:0a0020&height=260&section=header&text=MEET%20JOSHI&fontSize=72&fontColor=00f5ff&animation=blinking&fontAlignY=45&stroke=00f5ff&strokeWidth=2&desc=▸%20ML%20Engineer%20%20%7C%20%20AI%20Systems%20Architect%20%20%7C%20%20RAG%20Builder%20◂&descAlignY=65&descSize=16&descColor=7b8fa1" width="100%"/>
+
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║  INITIALIZING NEURAL INTERFACE...  ██████████████████████  100% ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+</div>
 
 <div align="center">
   <a href="https://www.linkedin.com/in/meetjoshi0656">
-    <img src="https://img.shields.io/badge/LinkedIn-0a0f1e?style=for-the-badge&logo=linkedin&logoColor=38bdf8" />
+    <img src="https://img.shields.io/badge/◈_LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00f5ff&labelColor=000000" />
   </a>
   <a href="mailto:meetjoshi0656@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-0a0f1e?style=for-the-badge&logo=gmail&logoColor=38bdf8" />
+    <img src="https://img.shields.io/badge/◈_Gmail-000000?style=for-the-badge&logo=gmail&logoColor=00f5ff&labelColor=000000" />
   </a>
   <a href="https://github.com/meetjoshi0656">
-    <img src="https://img.shields.io/badge/GitHub-0a0f1e?style=for-the-badge&logo=github&logoColor=38bdf8" />
+    <img src="https://img.shields.io/badge/◈_GitHub-000000?style=for-the-badge&logo=github&logoColor=00f5ff&labelColor=000000" />
   </a>
   <a href="https://leetcode.com/u/meetjoshi0656">
-    <img src="https://img.shields.io/badge/LeetCode-0a0f1e?style=for-the-badge&logo=leetcode&logoColor=38bdf8" />
+    <img src="https://img.shields.io/badge/◈_LeetCode-000000?style=for-the-badge&logo=leetcode&logoColor=00f5ff&labelColor=000000" />
   </a>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/⬡_CGPA-8.86_/_10.00-00f5ff?style=flat-square&labelColor=020b18&color=020b18" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/⬡_STATUS-ACTIVELY_BUILDING-00f5ff?style=flat-square&labelColor=020b18&color=020b18" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/⬡_LOCATION-AHMEDABAD,_INDIA-00f5ff?style=flat-square&labelColor=020b18&color=020b18" />
 </div>
 
 <br>
 
 ---
 
-## 🧠 About Me
+## ⬡ SYSTEM PROFILE
 
 ```python
+# ┌─────────────────────────────────────────────────────────────────┐
+# │              M E E T _ J O S H I  ::  AI_ENGINEER               │
+# └─────────────────────────────────────────────────────────────────┘
+
+import torch
+import langchain
 from dataclasses import dataclass, field
-from typing import Dict, List
+from typing import Dict, List, Tuple
 
 @dataclass
-class MeetJoshi:
-    name: str       = "Meet Joshi"
-    role: str       = "ML & AI Systems Builder"
-    location: str   = "Ahmedabad, India 🇮🇳"
-    degree: str     = "B.Tech — Computer Science & Engineering"
-    university: str = "Pandit Deendayal Energy University, Gandhinagar"
-    cgpa: float     = 8.86
+class MeetJoshi_v2:
 
-    skills: Dict[str, List[str]] = field(default_factory=lambda: {
-        "Languages"  : ["Python", "C", "SQL"],
-        "ML & Data"  : ["Scikit-learn", "PyTorch", "Pandas", "NumPy"],
-        "GenAI"      : ["LangChain", "RAG", "FAISS", "LLM Applications"],
-        "Backend"    : ["Flask", "FastAPI", "Django", "REST APIs"],
-        "Frontend"   : ["HTML", "CSS", "JavaScript", "React"],
-        "Databases"  : ["SAP HANA", "MySQL", "SQLite", "MongoDB"],
-        "Tools"      : ["Git", "Docker"],
-        "Core CS"    : ["DSA", "OOP", "DBMS", "OS", "Computer Networks"],
+    # ── IDENTITY ──────────────────────────────────────────────────
+    designation : str   = "ML Engineer · AI Systems Architect · RAG Builder"
+    institution : str   = "PDEU Gandhinagar, India 🇮🇳  |  B.Tech CSE '27"
+    cgpa        : float = 8.86
+
+    # ── NEURAL STACK ──────────────────────────────────────────────
+    core_ai: Dict[str, List[str]] = field(default_factory=lambda: {
+        "GenAI & RAG"  : ["LangChain", "FAISS", "Llama 3", "LLM Applications"],
+        "ML / DL"      : ["PyTorch", "Scikit-learn", "Feature Engineering"],
+        "Data Ops"     : ["Pandas", "NumPy", "SAP HANA", "MySQL", "MongoDB"],
+        "Backend APIs" : ["FastAPI", "Flask", "Django", "REST APIs"],
+        "Frontend"     : ["React", "JavaScript", "HTML", "CSS"],
+        "DevOps"       : ["Docker", "Git", "GitHub"],
+        "Languages"    : ["Python ★", "SQL", "C"],
     })
 
-    highlights: Dict[str, str] = field(default_factory=lambda: {
-        "RAG System"       : "94% accuracy | 92% retrieval precision | ~1.8s latency",
-        "ML Pricing Model" : "R² = 0.85 | ~9% prediction error | 230K+ records",
-        "Phishing Detector": "~95% detection accuracy | real-time FastAPI inference",
+    # ── BENCHMARK SCORES ──────────────────────────────────────────
+    metrics: Dict[str, Tuple[str, str]] = field(default_factory=lambda: {
+        "RAG System"         : ("94%  answer accuracy",       "zero hallucinations @ 200+ queries"),
+        "ML Pricing Model"   : ("R² = 0.85 · MAE ~9%",       "230K+ SAP HANA enterprise records"),
+        "Phishing Detector"  : ("~95%  detection accuracy",   "real-time FastAPI inference"),
+        "Pricing Platform"   : ("+35% pricing consistency",   "–60% quote generation time"),
     })
 
-    superpowers: List[str] = field(default_factory=lambda: [
-        "Building end-to-end ML pipelines on real enterprise datasets",
-        "Designing RAG systems with zero hallucinations at scale",
-        "Bridging AI research with production-ready backend APIs",
-    ])
+    def boot_sequence(self) -> None:
+        print("[SYS]  ▸  Kernel loaded: MeetJoshi_v2")
+        print("[SYS]  ▸  Mission: Build AI systems that think, retrieve & decide.")
+        print("[SYS]  ▸  Status: ONLINE — accepting connections 🟢")
 
-    def introduce(self) -> None:
-        print(f"Hey! I'm {self.name} — an ML & AI Systems builder 👋")
-        print("Turning data into decisions, one model at a time 🚀")
-
-me = MeetJoshi()
-me.introduce()
+agent = MeetJoshi_v2()
+agent.boot_sequence()
 ```
 
 <br>
 
 ---
 
-## ⚡ Tech Stack
+## ⬡ AI / ML ARSENAL
 
 <div align="center">
 
-**Languages**
-
-<img src="https://skillicons.dev/icons?i=python,c,mysql&theme=dark" />
-
-**ML / AI**
-
+```
+▸ INTELLIGENCE LAYER ◂
+```
 <img src="https://skillicons.dev/icons?i=pytorch,sklearn&theme=dark" />
 
-**Backend & APIs**
+```
+▸ BACKEND INFERENCE LAYER ◂
+```
+<img src="https://skillicons.dev/icons?i=fastapi,flask,django,python&theme=dark" />
 
-<img src="https://skillicons.dev/icons?i=fastapi,flask,django,nodejs&theme=dark" />
+```
+▸ FRONTEND INTERFACE LAYER ◂
+```
+<img src="https://skillicons.dev/icons?i=react,js,html,css&theme=dark" />
 
-**Frontend**
-
-<img src="https://skillicons.dev/icons?i=react,html,css,js&theme=dark" />
-
-**Databases**
-
+```
+▸ DATA & STORAGE LAYER ◂
+```
 <img src="https://skillicons.dev/icons?i=mysql,mongodb,sqlite&theme=dark" />
 
-**Tools**
-
-<img src="https://skillicons.dev/icons?i=git,github,docker,vscode,postman&theme=dark" />
-
-</div>
-
-<br>
-
----
-
-## 🚀 Featured Projects
-
-<div align="center">
-
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <img src="https://img.shields.io/badge/RAG%20+%20LLM%20+%20FastAPI-0a0f1e?style=for-the-badge&logoColor=38bdf8" /><br/><br/>
-      <b>AI Pump Decision Intelligence System</b><br/><br/>
-      <sub>FAISS · Llama 3 · RAG Pipeline</sub><br/>
-      <code>94% answer accuracy</code><br/>
-      <code>92% retrieval precision</code><br/>
-      <code>~1.8s avg latency</code><br/>
-      <code>Zero hallucinations @ 200+ queries</code>
-    </td>
-    <td align="center" width="33%">
-      <img src="https://img.shields.io/badge/ML%20+%20SAP%20HANA-0a0f1e?style=for-the-badge&logoColor=38bdf8" /><br/><br/>
-      <b>SAP HANA ML Prediction System</b><br/><br/>
-      <sub>Scikit-learn · Python · SAP HANA</sub><br/>
-      <code>230K+ enterprise records</code><br/>
-      <code>R² = 0.85</code><br/>
-      <code>~9% prediction error (MAE)</code><br/>
-      <code>Pricing consistency +35%</code>
-    </td>
-    <td align="center" width="33%">
-      <img src="https://img.shields.io/badge/ML%20+%20FastAPI-0a0f1e?style=for-the-badge&logoColor=38bdf8" /><br/><br/>
-      <b>Phishing Detection System</b><br/><br/>
-      <sub>FastAPI · Scikit-learn · Python</sub><br/>
-      <code>~95% detection accuracy</code><br/>
-      <code>Real-time inference</code><br/>
-      <code>Low-latency processing</code><br/>
-      &nbsp;
-    </td>
-  </tr>
-</table>
+```
+▸ INFRASTRUCTURE LAYER ◂
+```
+<img src="https://skillicons.dev/icons?i=docker,git,github,vscode,postman&theme=dark" />
 
 </div>
 
@@ -145,26 +126,36 @@ me.introduce()
 
 ---
 
-## 💼 Experience
+## ⬡ PROJECT DEPLOYMENTS
 
 <div align="center">
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://img.shields.io/badge/SAP%20HANA%20%26%20ML%20Intern-0a0f1e?style=for-the-badge&logoColor=38bdf8" /><br/>
-      <b>Lubi Industries LLP, Ahmedabad</b><br/>
-      <sub>Dec 2025 – Jan 2026</sub><br/>
-      <sub>ML pricing models · Decision intelligence platform · 60% faster quote generation</sub>
-    </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/Project%20Intern-0a0f1e?style=for-the-badge&logoColor=38bdf8" /><br/>
-      <b>Maxgen Technologies Pvt. Ltd., Ahmedabad</b><br/>
-      <sub>Jun 2023 – Aug 2023</sub><br/>
-      <sub>Django apps · 1000+ relational DB records · CRUD operations</sub>
-    </td>
-  </tr>
-</table>
+| ▸ SYSTEM | ▸ ARCHITECTURE | ▸ BENCHMARK |
+|:---:|:---:|:---:|
+| **AI Pump Decision Intelligence** | `RAG` + `FAISS` + `Llama 3` + `FastAPI` | `94%` accuracy · `~1.8s` latency · **0** hallucinations |
+| **SAP HANA ML Prediction System** | `Scikit-learn` + `SAP HANA` + `Python` | `R²=0.85` · `MAE~9%` · `230K+` records |
+| **Phishing Detection System** | `ML Classifier` + `FastAPI` + `Python` | `~95%` detection · real-time inference |
+
+</div>
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║  ▸ All systems trained, validated, and deployed in production    ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+<br>
+
+---
+
+## ⬡ OPERATIONAL HISTORY
+
+<div align="center">
+
+| ▸ MISSION | ▸ ORGANIZATION | ▸ TIMELINE | ▸ OUTPUT |
+|:---:|:---:|:---:|:---:|
+| **SAP HANA & ML Intern** | Lubi Industries LLP | `Dec 2025 – Jan 2026` | ML pricing models · AI decision platform · –60% quote time |
+| **Project Intern** | Maxgen Technologies Pvt. Ltd. | `Jun 2023 – Aug 2023` | Django CRUD apps · 1000+ DB records |
 
 </div>
 
@@ -172,42 +163,42 @@ me.introduce()
 
 ---
 
-## 📊 GitHub Highlights
+## ⬡ UPTIME METRICS
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=meetjoshi0656&hide_border=true&background=0a0f1e&ring=38bdf8&fire=0ea5e9&currStreakLabel=38bdf8&sideLabels=cbd5e1&dates=8b949e&currStreakNum=ffffff&sideNums=38bdf8&stroke=38bdf8" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=meetjoshi0656&hide_border=true&background=000000&ring=00f5ff&fire=00c5d9&currStreakLabel=00f5ff&sideLabels=7b8fa1&dates=4a5568&currStreakNum=ffffff&sideNums=00f5ff&stroke=00f5ff" />
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=meetjoshi0656&show_icons=true&hide_border=true&count_private=true&bg_color=0a0f1e&title_color=38bdf8&icon_color=38bdf8&text_color=cbd5e1&hide=issues" height="175"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=meetjoshi0656&show_icons=true&hide_border=true&count_private=true&bg_color=000000&title_color=00f5ff&icon_color=00f5ff&text_color=7b8fa1&hide=issues" height="170"/>
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=meetjoshi0656&layout=compact&hide_border=true&bg_color=0a0f1e&title_color=38bdf8&text_color=cbd5e1" height="175"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=meetjoshi0656&layout=compact&hide_border=true&bg_color=000000&title_color=00f5ff&text_color=7b8fa1" height="170"/>
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=meetjoshi0656&bg_color=0a0f1e&color=38bdf8&line=38bdf8&point=ffffff&area=true&area_color=38bdf820&hide_border=true&radius=8" width="95%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=meetjoshi0656&bg_color=000000&color=00f5ff&line=00f5ff&point=ffffff&area=true&area_color=00f5ff15&hide_border=true&radius=0" width="95%" />
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://github-trophies.vercel.app/?username=meetjoshi0656&theme=algolia&no-frame=true&column=4&margin-w=8" />
+  <img src="https://github-trophies.vercel.app/?username=meetjoshi0656&theme=matrix&no-frame=true&column=4&margin-w=8" />
 </div>
 
 <br>
 
 ---
 
-## 🏅 Achievements
+## ⬡ CERTIFICATIONS
 
 <div align="center">
-  <img src="https://img.shields.io/badge/NPTEL%20100%25-IIT%20Bombay%20Certified-38bdf8?style=for-the-badge&logo=google-scholar&logoColor=white&labelColor=0a0f1e" />
-  <br/>
-  <sub>Understanding Incubation and Entrepreneurship — IIT Bombay</sub>
+  <img src="https://img.shields.io/badge/NPTEL_IIT_BOMBAY-100%25_Score-000000?style=for-the-badge&logo=google-scholar&logoColor=000000&labelColor=00f5ff" />
+  <br/><br/>
+  <sub>Understanding Incubation and Entrepreneurship</sub>
 </div>
 
 <br>
@@ -215,9 +206,13 @@ me.introduce()
 ---
 
 <div align="center">
-  <i>💭 "Turning data into decisions, one model at a time."</i>
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║   "Build systems that think. Solve problems that matter."        ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
 </div>
 
-<br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a1628,50:0d1f3c,100:0a0f1e&height=130&section=footer&text=Keep+Building...+🚀&fontSize=26&fontColor=38bdf8&fontAlignY=70&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:0a0020,40:020b18,100:000000&height=140&section=footer&text=EOF%20::%20SYSTEMS%20ONLINE%20🟢&fontSize=22&fontColor=00f5ff&fontAlignY=55&animation=blinking&stroke=00f5ff&strokeWidth=1" width="100%"/>
